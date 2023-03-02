@@ -108,7 +108,7 @@ void List::remove(int loc){
 }
 
 
-List::List(){
+List::~List(){
 
     delete head;
 
