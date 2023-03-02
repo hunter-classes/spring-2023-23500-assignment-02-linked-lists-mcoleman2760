@@ -1,11 +1,11 @@
-main: main.o list.o node.o
-	g++ -o main main.o list.o mode.o
+main: main.o List.o Node.o
+	g++ -o main main.o List.o Node.o
 
-main.o: main.cpp list.h node.h
+main.o: main.cpp List.h Node.h
 
-list.o: list.cpp list.h node.h
+List.o: List.cpp List.h Node.h
 
-node.o: node.cpp node.h
+Mode.o: Node.cpp Node.h
 
 clean:
 	rm -f *.o
