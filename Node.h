@@ -14,4 +14,3 @@ class Node{
   Node *getNext();
   
 };
-
